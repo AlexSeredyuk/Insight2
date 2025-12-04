@@ -1,0 +1,12 @@
+---
+alwaysApply: true
+---
+
+
+- use lower camelCase for code
+- always use docs/AI_WIDGET_PLAYBOOK.md when implementing a Widget
+- always use all required patterns from Adocs/AI_WIDGET_PLAYBOOK.md, including styling, formatting, fonts, animations, advanced Panel Pattern(Custom CSS Styling)
+- clean up test files after successful finish
+- always fix all linter and Typescript errors
+- do not rely on Tailwind CSS in this project
+- all styles must be nested within the namespace wrapper for proper isolation in microfrontend architecture
